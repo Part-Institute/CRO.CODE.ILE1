@@ -1,0 +1,82 @@
+/*
+======
+Header
+======
+*/
+.nav-access button:hover {
+    box-shadow: 0 0 10px rgba(255, 194, 34, 0.5);
+}
+
+.nav-access-shopping-icon:hover p {
+    transform: scale(1.2) rotate(15deg);
+}
+
+.nav-items a:hover {
+    color: rgba(214, 67, 59, 1);
+}
+
+.header-content button:hover img {
+    transform: rotate(180deg);
+}
+
+@keyframes header-background-image-1 {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+@keyframes header-background-image-2 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes header-background-image-3 {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.header-background-images img:nth-of-type(1) {
+    animation: header-background-image-1 3s ease-in-out infinite;
+}
+
+.header-background-images img:nth-of-type(2) {
+    animation: header-background-image-2 3s ease-in-out infinite;
+}
+
+.header-background-images img:nth-of-type(4) {
+    animation: header-background-image-2 5s ease-in-out infinite;
+}
+
+.header-background-images img:nth-of-type(5) {
+    animation: header-background-image-1 7s ease-in-out infinite;
+}
+
+@keyframes header-pizza-image {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header-content-image img {
+    animation: header-pizza-image 60s linear infinite;
+}
