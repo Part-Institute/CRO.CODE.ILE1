@@ -24,7 +24,6 @@ nav {
 }
 
 .nav-logo {
-    width: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,7 +37,6 @@ nav {
 }
 
 .nav-items {
-    width: 70%;
     display: flex;
     gap: 65px;
     justify-content: center;
@@ -53,7 +51,6 @@ nav {
 }
 
 .nav-access {
-    width: 20%;
     display: flex;
     align-items: center;
     gap: 24px;

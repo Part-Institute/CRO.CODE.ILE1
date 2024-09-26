@@ -63,6 +63,10 @@ Header
     animation: header-background-image-2 3s ease-in-out infinite;
 }
 
+.header-background-images img:nth-of-type(3) {
+    animation: header-background-image-3 10s ease-in-out infinite;
+}
+
 .header-background-images img:nth-of-type(4) {
     animation: header-background-image-2 5s ease-in-out infinite;
 }

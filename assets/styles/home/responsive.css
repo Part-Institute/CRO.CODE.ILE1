@@ -1,0 +1,153 @@
+@media (max-width: 1400px) {
+    body {
+        background-color: cadetblue;
+    }
+
+    /*
+    ======
+    Header
+    ======
+    */
+    .nav-access button {
+        font-size: 18px;
+        padding: 5px 5%;
+    }
+
+    .header-content {
+        margin-top: 10%;
+    }
+
+    .header-content h1 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    .header-content p {
+        font-size: 25px;
+    }
+
+    .header-content button {
+        font-size: 15px;
+        padding: 12px 30px;
+    }
+
+    .header-content-image {
+        transform: unset;
+    }
+
+    .header-content-image img {
+        width: 95%;
+        height: auto;
+        display: block;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        background-color: darksalmon;
+    }
+
+    /*
+    ======
+    Header
+    ======
+    */
+    .nav-access {
+        display: none;
+    }
+
+    .header-content {
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-content h1 {
+        font-size: 120px;
+        line-height: 120%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .header-content p {
+        text-align: center;
+    }
+
+    .header-content button {
+        display: flex;
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header-content-image {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-color: deepskyblue;
+    }
+
+    /*
+    ======
+    Header
+    ======
+    */
+    .nav-items {
+        gap: 45px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: greenyellow;
+    }
+
+    /*
+    ======
+    Header
+    ======
+    */
+    nav, .header-content {
+        justify-content: center;
+    }
+
+    header {
+        height: auto;
+        min-height: auto;
+        padding-bottom: 15%;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .header-content h1 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    /*
+    ======
+    Header
+    ======
+    */
+    .header-background-images img {
+        display: none;
+    }
+
+    .header-content h1 {
+        font-size: 60px;
+    }
+
+    .header-content p {
+        font-size: 18px;
+    }
+}
