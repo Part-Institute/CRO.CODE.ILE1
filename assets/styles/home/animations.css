@@ -84,3 +84,36 @@ Header
 .header-content-image img {
     animation: header-pizza-image 60s linear infinite;
 }
+
+/*
+==============
+seller Section
+==============
+*/
+.seller-item:hover h3 {
+    font-size: 20px;
+}
+
+.seller-item:hover p {
+    font-size: 28px;
+}
+
+.seller-item:hover img {
+    transform: scale(1.1);
+}
+
+.seller-item:hover {
+    transform: translateY(-5px);
+}
+
+.seller-background-images img:nth-of-type(1) {
+    animation: header-background-image-1 3s ease-in-out infinite;
+}
+
+.seller-background-images img:nth-of-type(2) {
+    animation: header-background-image-2 3s ease-in-out infinite;
+}
+
+.seller-background-images img:nth-of-type(3) {
+    animation: header-background-image-3 10s ease-in-out infinite;
+}

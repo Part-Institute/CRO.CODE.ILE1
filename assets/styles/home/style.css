@@ -257,8 +257,85 @@ Information Section
 }
 
 /*
-===================
+==============
 seller Section
-===================
+==============
 */
+.seller-section {
+    background-color: rgba(239, 41, 76, 1);
+    padding: 90px 15% 120px;
+    position: relative;
+}
 
+.seller-section .row {
+    justify-content: center;
+}
+
+.seller-title h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+}
+
+.seller-title h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.seller-item {
+    background-color: rgba(255, 194, 34, 1);
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.seller-item h3 {
+    color: rgba(33, 33, 33, 1);
+    font-size: 26px;
+    font-weight: 700;
+    transition-duration: 0.2s;
+}
+
+.seller-item p {
+    color: white;
+    font-size: 22px;
+    padding-top: 9px;
+    padding-bottom: 35px;
+    transition-duration: 0.2s;
+}
+
+.seller-item img {
+    height: 185px;
+    width: auto;
+    object-fit: contain;
+    transition-duration: 0.5s;
+}
+
+.seller-background-images img {
+    position: absolute;
+}
+
+.seller-background-images img:nth-of-type(1) {
+    top: 10%;
+    right: 5%;
+}
+
+.seller-background-images img:nth-of-type(2) {
+    bottom: 10%;
+    right: 5%;
+}
+
+.seller-background-images img:nth-of-type(3) {
+    top: 60%;
+    left: 5%;
+}

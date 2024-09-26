@@ -3,8 +3,6 @@
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
 }
 
 .row {
@@ -54,8 +52,6 @@
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
     flex: 0 0 auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
 }
 
 .col-xs {
@@ -268,8 +264,6 @@
         -ms-flex: 0 0 auto;
         -webkit-box-flex: 0;
         flex: 0 0 auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
     }
 
     .col-sm {
@@ -483,8 +477,6 @@
         -ms-flex: 0 0 auto;
         -webkit-box-flex: 0;
         flex: 0 0 auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
     }
 
     .col-md {
@@ -698,8 +690,6 @@
         -ms-flex: 0 0 auto;
         -webkit-box-flex: 0;
         flex: 0 0 auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
     }
 
     .col-lg {
