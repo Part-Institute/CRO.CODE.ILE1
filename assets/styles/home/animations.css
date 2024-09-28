@@ -117,3 +117,13 @@ seller Section
 .seller-background-images img:nth-of-type(3) {
     animation: header-background-image-3 10s ease-in-out infinite;
 }
+
+/*
+============
+News Section
+============
+*/
+.news-item:hover {
+    transform: scale(1.01) translateY(-5px);
+    box-shadow: 0 0 10px rgba(242, 242, 242, 1);
+}

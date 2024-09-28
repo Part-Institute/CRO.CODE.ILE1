@@ -84,6 +84,15 @@
         font-size: 30px;
     }
 
+    /*
+    ============
+    News Section
+    ============
+    */
+    .news-content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -190,6 +199,20 @@
 
     .order-cover {
         align-content: center;
+    }
+
+    /*
+    ============
+    News Section
+    ============
+    */
+
+    .news-content .row .col-lg-4 {
+        margin-top: 24px;
+    }
+
+    .news-content h1 {
+        font-size: 54px;
     }
 
 }
