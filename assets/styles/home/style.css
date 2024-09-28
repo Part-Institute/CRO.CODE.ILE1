@@ -563,3 +563,108 @@ News Section
     color: rgba(92, 92, 91, 1);
     padding-left: 40px;
 }
+
+/*
+====================
+Social Media Section
+====================
+*/
+.social-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social-title-icon {
+    background-color: rgba(250, 107, 37, 1);
+    padding: 25px 28px;
+    border-radius: 300px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.social-title h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.social-title p {
+    color: rgba(85, 85, 85, 1);
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.social-content {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.social-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.social-item {
+    width: 20%;
+    height: 368px;
+    cursor: pointer;
+    position: relative;
+    transition-duration: 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.social-item:nth-of-type(1) {
+    background-image: url("../../images/home/section6/postImage6.png");
+}
+
+.social-item:nth-of-type(2) {
+    background-image: url("../../images/home/section6/postImage7.png");
+}
+
+.social-item:nth-of-type(3) {
+    background-image: url("../../images/home/section6/postImage8.png");
+}
+
+.social-item:nth-of-type(4) {
+    background-image: url("../../images/home/section6/postImage9.png");
+}
+
+.social-item:nth-of-type(5) {
+    background-image: url("../../images/home/section6/postImage10.png");
+}
+
+.social-item-bar {
+    width: 100%;
+    background-color: rgba(250, 107, 37, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.social-item-bar img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transition-duration: 0.5s;
+}
+
+.social-branding {
+    color: rgba(242, 242, 242, 1);
+    font-weight: 700;
+    font-size: 78px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social-gallery {
+    display: flex;
+}
+
+.social-gallery img {
+    width: 20%;
+    height: 380px;
+    object-fit: cover;
+    object-position: center;
+}
