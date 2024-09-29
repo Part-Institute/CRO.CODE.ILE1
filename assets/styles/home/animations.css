@@ -141,3 +141,23 @@ Social Media Section
 .social-item:hover .social-item-bar img {
     transform: scale(1.1);
 }
+
+/*
+======
+Footer
+======
+*/
+.footer-newsletter-button:hover span {
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 55px;
+}
+
+.footer-menu a:hover::after {
+    transform: rotate(180deg);
+}
+
+.footer-menu a:hover, .footer-social a:hover {
+    color: rgba(243, 39, 76, 1);
+}

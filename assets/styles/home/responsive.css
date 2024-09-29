@@ -97,6 +97,20 @@
     .social-branding {
         font-size: 60px;
     }
+
+    /*
+    ======
+    Footer
+    ======
+     */
+    footer {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .footer-background img {
+        width: 10%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -243,6 +257,23 @@
     .social-gallery img:last-of-type {
         width: 100%;
     }
+
+    /*
+    ======
+    Footer
+    ======
+    */
+    .footer-background img {
+        display: none;
+    }
+
+    footer .row {
+        justify-content: center;
+    }
+
+    .footer-card {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -361,6 +392,20 @@
     */
     .social-item {
         width: 80%;
+    }
+
+    /*
+    ====
+    Footer
+    ====
+    */
+    footer .row {
+        justify-content: space-between;
+    }
+
+    .footer-copyright {
+        text-align: center;
+        margin-top: 10px;
     }
 }
 
