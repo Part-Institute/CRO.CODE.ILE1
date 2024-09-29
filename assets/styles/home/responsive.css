@@ -32,6 +32,8 @@
     }
 
     .header-content-image {
+        -webkit-transform: unset;
+        -ms-transform: unset;
         transform: unset;
     }
 
@@ -144,6 +146,8 @@
     }
 
     .header-content button {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: auto;
         margin-right: auto;
@@ -164,6 +168,8 @@
     }
 
     .information-container .row, .information-avatar {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -208,6 +214,8 @@
     =============
     */
     .order-section .row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -216,6 +224,7 @@
     }
 
     .order-cover {
+        -ms-flex-line-pack: center;
         align-content: center;
     }
 
@@ -238,7 +247,10 @@
     ====================
     */
     .social-row, .social-gallery {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -268,6 +280,8 @@
     }
 
     footer .row {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -349,6 +363,8 @@
     ======
     */
     nav, .header-content {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -372,6 +388,7 @@
     ==============
     */
     .seller-section .row .col-sm-12 {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         max-width: 100%;
     }
@@ -400,6 +417,8 @@
     ====
     */
     footer .row {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
     }
 

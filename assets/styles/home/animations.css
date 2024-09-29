@@ -4,10 +4,13 @@ Header
 ======
 */
 .nav-access button:hover {
+    -webkit-box-shadow: 0 0 10px rgba(255, 194, 34, 0.5);
     box-shadow: 0 0 10px rgba(255, 194, 34, 0.5);
 }
 
 .nav-access-shopping-icon:hover p {
+    -webkit-transform: scale(1.2) rotate(15deg);
+    -ms-transform: scale(1.2) rotate(15deg);
     transform: scale(1.2) rotate(15deg);
 }
 
@@ -16,72 +19,142 @@ Header
 }
 
 .header-content button:hover img {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
+}
+
+@-webkit-keyframes header-background-image-1 {
+    0% {
+        -webkit-transform: translate(0, 0px);
+        transform: translate(0, 0px);
+    }
+    50% {
+        -webkit-transform: translate(0, 10px);
+        transform: translate(0, 10px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0px);
+        transform: translate(0, 0px);
+    }
 }
 
 @keyframes header-background-image-1 {
     0% {
+        -webkit-transform: translate(0, 0px);
         transform: translate(0, 0px);
     }
     50% {
+        -webkit-transform: translate(0, 10px);
         transform: translate(0, 10px);
     }
     100% {
+        -webkit-transform: translate(0, 0px);
         transform: translate(0, 0px);
+    }
+}
+
+@-webkit-keyframes header-background-image-2 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 }
 
 @keyframes header-background-image-2 {
     0% {
+        -webkit-transform: scale(1);
         transform: scale(1);
     }
     50% {
+        -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
     100% {
+        -webkit-transform: scale(1);
         transform: scale(1);
+    }
+}
+
+@-webkit-keyframes header-background-image-3 {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    50% {
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
     }
 }
 
 @keyframes header-background-image-3 {
     0% {
+        -webkit-transform: rotate(0);
         transform: rotate(0);
     }
     50% {
+        -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
     }
     100% {
+        -webkit-transform: rotate(0);
         transform: rotate(0);
     }
 }
 
 .header-background-images img:nth-of-type(1) {
+    -webkit-animation: header-background-image-1 3s ease-in-out infinite;
     animation: header-background-image-1 3s ease-in-out infinite;
 }
 
 .header-background-images img:nth-of-type(2) {
+    -webkit-animation: header-background-image-2 3s ease-in-out infinite;
     animation: header-background-image-2 3s ease-in-out infinite;
 }
 
 .header-background-images img:nth-of-type(3) {
+    -webkit-animation: header-background-image-3 10s ease-in-out infinite;
     animation: header-background-image-3 10s ease-in-out infinite;
 }
 
 .header-background-images img:nth-of-type(4) {
+    -webkit-animation: header-background-image-2 5s ease-in-out infinite;
     animation: header-background-image-2 5s ease-in-out infinite;
 }
 
 .header-background-images img:nth-of-type(5) {
+    -webkit-animation: header-background-image-1 7s ease-in-out infinite;
     animation: header-background-image-1 7s ease-in-out infinite;
+}
+
+@-webkit-keyframes header-pizza-image {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes header-pizza-image {
     100% {
+        -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
 
 .header-content-image img {
+    -webkit-animation: header-pizza-image 60s linear infinite;
     animation: header-pizza-image 60s linear infinite;
 }
 
@@ -99,22 +172,29 @@ seller Section
 }
 
 .seller-item:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 .seller-item:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
     transform: translateY(-5px);
 }
 
 .seller-background-images img:nth-of-type(1) {
+    -webkit-animation: header-background-image-1 3s ease-in-out infinite;
     animation: header-background-image-1 3s ease-in-out infinite;
 }
 
 .seller-background-images img:nth-of-type(2) {
+    -webkit-animation: header-background-image-2 3s ease-in-out infinite;
     animation: header-background-image-2 3s ease-in-out infinite;
 }
 
 .seller-background-images img:nth-of-type(3) {
+    -webkit-animation: header-background-image-3 10s ease-in-out infinite;
     animation: header-background-image-3 10s ease-in-out infinite;
 }
 
@@ -125,6 +205,7 @@ Offer Section
 */
 .offer-content a:hover span {
     color: rgba(243, 39, 76, 1);
+    -webkit-text-decoration: rgba(243, 39, 76, 1) underline;
     text-decoration: rgba(243, 39, 76, 1) underline;
 }
 
@@ -134,6 +215,8 @@ Order Section
 =============
 */
 .order-content a:hover::after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -143,7 +226,10 @@ News Section
 ============
 */
 .news-item:hover {
+    -webkit-transform: scale(1.01) translateY(-5px);
+    -ms-transform: scale(1.01) translateY(-5px);
     transform: scale(1.01) translateY(-5px);
+    -webkit-box-shadow: 0 0 10px rgba(242, 242, 242, 1);
     box-shadow: 0 0 10px rgba(242, 242, 242, 1);
 }
 
@@ -158,10 +244,13 @@ Social Media Section
 }
 
 .social-item:hover .social-item-bar img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
 .social-gallery img:hover {
+    -webkit-filter: grayscale(50%) drop-shadow(0 0 5px rgba(128, 128, 128, 0.5));
     filter: grayscale(50%) drop-shadow(0 0 5px rgba(128, 128, 128, 0.5));
 }
 
@@ -178,6 +267,8 @@ Footer
 }
 
 .footer-menu a:hover::after {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
