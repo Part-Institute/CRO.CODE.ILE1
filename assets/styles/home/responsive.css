@@ -1,8 +1,4 @@
 @media (max-width: 1400px) {
-    body {
-        background-color: cadetblue;
-    }
-
     /*
     ======
     Header
@@ -116,10 +112,6 @@
 }
 
 @media (max-width: 1200px) {
-    body {
-        background-color: darksalmon;
-    }
-
     /*
     ======
     Header
@@ -291,10 +283,6 @@
 }
 
 @media (max-width: 992px) {
-    body {
-        background-color: deepskyblue;
-    }
-
     /*
     ======
     Header
@@ -353,10 +341,6 @@
 }
 
 @media (max-width: 768px) {
-    body {
-        background-color: greenyellow;
-    }
-
     /*
     ======
     Header
@@ -429,10 +413,6 @@
 }
 
 @media (max-width: 576px) {
-    body {
-        background-color: lightgreen;
-    }
-
     /*
     ======
     Header
