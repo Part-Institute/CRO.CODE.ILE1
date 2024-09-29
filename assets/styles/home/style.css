@@ -410,6 +410,10 @@ Offer Section
     align-items: center;
 }
 
+.offer-content a span{
+    transition-duration: 0.2s;
+}
+
 /*
 =============
 Order Section
@@ -462,6 +466,8 @@ Order Section
 .order-content a::after {
     content: url("../../icons/home/section4/leftArrow.svg");
     padding-right: 8px;
+    display: inline-block;
+    transition: transform 0.3s ease;
 }
 
 .order-section h2 {
@@ -667,6 +673,7 @@ Social Media Section
     height: 380px;
     object-fit: cover;
     object-position: center;
+    transition-duration: 1s;
 }
 
 /*

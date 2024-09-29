@@ -119,6 +119,25 @@ seller Section
 }
 
 /*
+=============
+Offer Section
+=============
+*/
+.offer-content a:hover span {
+    color: rgba(243, 39, 76, 1);
+    text-decoration: rgba(243, 39, 76, 1) underline;
+}
+
+/*
+=============
+Order Section
+=============
+*/
+.order-content a:hover::after {
+    transform: rotate(180deg);
+}
+
+/*
 ============
 News Section
 ============
@@ -140,6 +159,10 @@ Social Media Section
 
 .social-item:hover .social-item-bar img {
     transform: scale(1.1);
+}
+
+.social-gallery img:hover {
+    filter: grayscale(50%) drop-shadow(0 0 5px rgba(128, 128, 128, 0.5));
 }
 
 /*
