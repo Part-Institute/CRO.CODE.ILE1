@@ -1,0 +1,71 @@
+/*
+=================
+Start - Add Fonts
+=================
+*/
+
+h1,
+p,
+li,
+td {
+    font-family: Vazirmatn FD;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*
+===============
+End - Add Fonts
+===============
+*/
+
+/* 
+==================
+Start - Text Color
+==================
+*/
+
+h1 {
+    color: #de333f;
+}
+
+h1 span {
+    color: black;
+}
+
+a {
+    color: #0070c0;
+}
+
+/* 
+================
+End - Text Color
+================
+*/
+
+/* 
+=============
+Start - Table
+=============
+*/
+
+td {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* 
+===========
+End - Table
+===========
+*/
