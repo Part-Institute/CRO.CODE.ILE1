@@ -1,0 +1,544 @@
+/*
+=========
+Add Fonts
+=========
+ */
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: 100;
+    src: url('src/fonts/woff/YekanBakhFaNum-Thin.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: 300;
+    src: url('src/fonts/woff/YekanBakhFaNum-Light.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: normal;
+    src: url('src/fonts/woff/YekanBakhFaNum-Regular.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: 600;
+    src: url('src/fonts/woff/YekanBakhFaNum-SemiBold.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: bold;
+    src: url('src/fonts/woff/YekanBakhFaNum-Bold.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: 800;
+    src: url('src/fonts/woff/YekanBakhFaNum-ExtraBold.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: 900;
+    src: url('src/fonts/woff/YekanBakhFaNum-Black.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: YekanBakhFaNum;
+    font-style: normal;
+    font-weight: 950;
+    src: url('src/fonts/woff/YekanBakhFaNum-ExtraBlack.woff') format('woff'),
+    url('src/fonts/woff2/YekanBakhFaNum-ExtraBlack.woff2') format('woff2');
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: YekanBakhFaNum;
+}
+
+/*
+============
+Add CSS Rest
+============
+ */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin-block-end: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+h1, h2,
+h3, h4 {
+    text-wrap: balance;
+}
+
+a {
+    text-decoration: unset;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input, button,
+textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+:target {
+    scroll-margin-block: 5ex;
+}
+
+/*
+==============
+Add Base Style
+==============
+ */
+
+.container {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.row {
+    display: flex;
+}
+
+.row-main {
+    width: 70%;
+}
+
+.row-aside {
+    width: 30%;
+}
+
+/*
+================
+Add Chosen Style
+================
+*/
+
+.chosen-container {
+    padding-right: 55px;
+    padding-left: 55px;
+    display: flex;
+}
+
+.chosen-title-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 18px;
+}
+
+.chosen-title-container h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.chosen-title-tags {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.chosen-title-tags p {
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.chosen-title-tags-active {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(23, 196, 226, 1);
+}
+
+.chosen-title-tags-inactive {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(172, 222, 231, 1);
+}
+
+.chosen-special-post {
+    width: 60%;
+    background-image: url("src/images/galaxy-night-panorama.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 25px;
+    border-radius: 16px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 55px;
+    cursor: pointer;
+}
+
+.chosen-special-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: end;
+}
+
+.chosen-special-content a {
+    display: block;
+}
+
+.chosen-special-content a:first-of-type {
+    color: rgba(255, 255, 255, 1);
+    font-size: 13px;
+}
+
+.chosen-special-content a:last-of-type {
+    color: rgba(255, 255, 255, 1);
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.chosen-special-content p {
+    font-size: 13px;
+    color: rgba(186, 186, 186, 1);
+    font-weight: 600;
+}
+
+.chosen-posts-list {
+    padding: 25px;
+    width: 40%;
+    border: rgba(226, 226, 226, 1) solid 1px;
+    border-radius: 12px;
+}
+
+.chosen-post-item:not(:last-of-type) {
+    font-size: 16px;
+    border-bottom: 1px solid rgba(226, 226, 226, 1);
+    margin-bottom: 25px;
+}
+
+.chosen-post-item a {
+    display: block;
+}
+
+.chosen-post-item a:first-of-type {
+    color: rgba(23, 196, 226, 1);
+}
+
+.chosen-post-item a:last-of-type {
+    color: rgba(0, 0, 0, 1);
+    line-height: 24px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+/*
+================
+Add Lifestyle Style
+================
+*/
+
+.lifestyle-title-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-bottom: 18px;
+    margin-top: 57px;
+}
+
+.lifestyle-title-container h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.lifestyle-title-tags {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.lifestyle-title-tags p {
+    font-size: 24px;
+    padding: 1px 12px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.lifestyle-title-tags-active {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(23, 196, 226, 1);
+}
+
+.lifestyle-title-tags-inactive {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(172, 222, 231, 1);
+}
+
+.lifestyle-container {
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.lifestyle-posts {
+    display: flex;
+    gap: 25px;
+}
+
+.lifestyle-post {
+    width: 33%;
+}
+
+.lifestyle-post img {
+    width: 100%;
+    height: 205px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+.lifestyle-post a {
+    display: block;
+    font-size: 16px;
+}
+
+.lifestyle-post a:first-of-type {
+    color: rgba(23, 196, 226, 1);
+    margin-top: 19px;
+}
+
+.lifestyle-post a:last-of-type {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.lifestyle-post p {
+    color: rgba(186, 186, 186, 1);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/*
+======================
+Add Aside Chosen Style
+======================
+*/
+
+.aside-title-container h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.aside-chosen-post {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.aside-chosen-image {
+    width: 88px;
+    height: 88px;
+}
+
+.aside-chosen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.aside-chosen-content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aside-chosen-content a {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.aside-chosen-content p {
+    color: rgba(186, 186, 186, 1);
+    font-size: 13px;
+}
+
+/*
+======================
+Add Aside Social Style
+======================
+*/
+
+.aside-social-item {
+    width: 90%;
+    padding: 15px;
+    padding-left: 22px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+.aside-social-item div {
+    display: flex;
+    align-items: center;
+}
+
+.aside-social-item img {
+    margin-left: 10px;
+}
+
+.aside-social-item p {
+    font-size: 11px;
+}
+
+.aside-social-url {
+    text-align: center;
+    font-weight: 600;
+}
+
+/*
+==========
+Responsive
+==========
+*/
+
+@media (max-width: 1200px) {
+
+    .container {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .chosen-container, .chosen-title-container, .lifestyle-container, .lifestyle-title-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .aside-social-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row-main {
+        width: 100%;
+    }
+
+    .row-aside {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .chosen-container {
+        flex-direction: column;
+    }
+
+    .chosen-special-post {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .chosen-posts-list {
+        width: 100%;
+    }
+
+    .lifestyle-posts {
+        flex-wrap: wrap;
+    }
+
+    .lifestyle-post {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .chosen-container, .chosen-title-container, .lifestyle-container, .lifestyle-title-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
