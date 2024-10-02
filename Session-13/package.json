@@ -1,0 +1,11 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "SCSS Simple Project",
+  "scripts": {
+    "watch": "node-sass -o src/css src/scss/style.scss -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
