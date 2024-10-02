@@ -1,0 +1,148 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body,
+input,
+button {
+    font-family: Vazirmatn FD;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+header {
+    z-index: 3;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 65px;
+}
+
+.nav-company-name {
+    width: 15%;
+    display: inline-block;
+}
+
+.nav-company-name h3 {
+    font-weight: 900;
+    color: #17c4e2;
+    font-size: 20px;
+    margin: 0;
+}
+
+.nav-company-name a {
+    text-decoration: unset;
+}
+
+.nav-items {
+    width: 50%;
+    display: inline-block;
+}
+
+.nav-search {
+    width: 15%;
+    display: inline-block;
+}
+
+.nav-items {
+    text-align: center;
+}
+
+.nav-items a {
+    margin: 0 55px;
+    text-decoration: unset;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-search-item {
+    width: 194px;
+    position: relative;
+    float: left;
+}
+
+.nav-search-item img {
+    position: absolute;
+}
+
+.nav-search input {
+    width: 100%;
+    margin-left: 0;
+    background-color: unset;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-right: 37px;
+    padding-bottom: 11px;
+    color: white;
+    outline: unset;
+}
+
+.nav-search input::placeholder {
+    color: white;
+}
+
+.header-container {
+    padding-top: 10%;
+    color: white;
+}
+
+.header-container h1 {
+    font-size: 96px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.header-container p {
+    width: 40%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.header-container span {
+    color: #17c4e2;
+    font-weight: 700;
+}
+
+.header-container button {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 14px 32px;
+    border-radius: 500px;
+    border: 0.5px solid rgba(255, 255, 255, 0.6);
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+    background: rgba(5, 121, 140, 0.5);
+    margin-top: 30px;
+}
