@@ -1,0 +1,43 @@
+.container {
+    width: 1072px;
+    height: 1072px;
+    background-color: #bcd8d3;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.cover {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.welcome {
+    font-family: Vazirmatn FD;
+    font-weight: 600;
+    text-align: center;
+    font-size: 56px;
+    margin: 0;
+    line-height: 68px;
+    padding-bottom: 20px;
+}
+
+.welcome p span:nth-of-type(1) {
+    color: #fc5954;
+}
+
+.welcome p span:nth-of-type(2) {
+    color: #5b5399;
+}
+
+.welcome p span:nth-of-type(3) {
+    color: #fcb21e;
+}
+
+.welcome p span:nth-of-type(4) {
+    color: #599962;
+}
